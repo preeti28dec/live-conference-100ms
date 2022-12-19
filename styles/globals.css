@@ -99,16 +99,15 @@ form h2,
 }
 
 .peers-container {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(min-content, 1fr));
-  place-items: center;
-  grid-gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .peer-video {
   height: 250px;
   width: 250px;
-  border-radius: 40%;
+  border-radius: 5%;
   object-fit: cover;
   margin-bottom: 10px;
 }
