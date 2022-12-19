@@ -1,7 +1,9 @@
-import App from '../components/app'
-// import '../styles/Home.module.css'
+import App from "../components/app";
+import { HMSRoomProvider } from "@100mslive/react-sdk";
 export default function Home() {
   return (
-    <App/>
-  )
+    <HMSRoomProvider>
+      <App />
+    </HMSRoomProvider>
+  );
 }
