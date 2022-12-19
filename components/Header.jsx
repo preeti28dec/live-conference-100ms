@@ -11,11 +11,12 @@ import {
   
     return (
       <header>
-        <img
+      <h1 className="logo">Live Streaming</h1>
+        {/* <img
           className="logo"
-          src="https://www.100ms.live/assets/logo.svg"
+          src="./logo-removebg-preview.png"
           alt="logo"
-        />
+        /> */}
         {isConnected && (
           <button
             id="leave-btn"
