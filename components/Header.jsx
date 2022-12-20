@@ -11,7 +11,7 @@ import {
   
     return (
       <header>
-      <h1 className="logo">Live Streaming</h1>
+      <h1 className="logo">Live Conference</h1>
         {/* <img
           className="logo"
           src="./logo-removebg-preview.png"
